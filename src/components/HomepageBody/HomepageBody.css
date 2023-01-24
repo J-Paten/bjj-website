@@ -1,0 +1,97 @@
+.homepage-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F3F9E7;
+}
+
+.body-heading {
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: -1px;
+    font-size: 4rem;
+    margin: 2rem 0 2rem;
+    line-height: 1.5;
+    color: #24565C;
+}
+
+.academy-description-box, .academy-mission-box, .academy-location-box, .hook-box {
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+}
+
+.academy-description-box h3, .academy-mission-box h3, .academy-location-box h3, .hook-box h3, .time-heading {
+    font-size: 2.5rem;
+    letter-spacing: -1px;
+    font-weight: 900;
+    line-height: 1.5;
+    margin: 1rem 0 1rem;
+    color: #24565C;
+}
+
+.academy-description-box p, .academy-mission-box p, .academy-location-box p, .hook-box p{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    margin: 1rem 0 0.5rem;
+    color: #333;
+}
+
+.academy-description-box {
+    border: 1px dashed #0E8B95;
+}
+
+.academy-mission-box {
+    border: 1px dashed #0E8B95;
+}
+
+.academy-location-box {
+    border: 1px dashed #0E8B95;
+}
+
+
+
+.inside-hook-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 40vh;
+}
+
+.hook-box h3 {
+    font-size: 3rem;
+    color: #24565C;
+}
+
+.hook-box p {
+    font-size: 1.6rem;
+    color: #333;
+}
+
+.time-heading {
+    font-size: 2.5rem;
+    color: #24565C;
+}
+
+.inside-hook-box h3 {
+    margin: 2rem 0 1rem;
+}
+@media screen and (min-width: 768px) {
+    .homepage-body {
+        flex-direction: row;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+     .academy-description-box p, .academy-mission-box p, .academy-location-box p{
+            font-size: 1.6rem;
+        }
+
+        .academy-description-box h3, .academy-mission-box h3, .academy-location-box h3{
+            font-size: 3rem;
+        }
+}
+

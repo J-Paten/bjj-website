@@ -1,0 +1,88 @@
+.body-end-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3F9E7;
+}
+
+.body-end-box {
+    border: 1px dashed #0E8B95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+
+.body-end-heading, .body-end-box-heading {
+    text-align: center;
+    letter-spacing: -1px;
+    font-weight: 900;
+    margin: 3rem 0 3rem;
+    font-size: 4rem;
+    color: #24565C;
+}
+
+.body-end-box-heading {
+    text-align: center;
+    font-weight: 900;
+    font-size: 3rem;
+    text-align: center;
+    color: #24565C;
+}
+
+.notice-box {
+    margin: 3rem 0 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.notice-box-text {
+    font-size: 2rem;
+    text-align: center;
+    color: #333;
+}
+
+.training-session-underline {
+    text-decoration: underline;
+}
+
+.homepage-btn {
+    font-size: 2rem;
+    background-color: #0E8B95;
+    border-color: #0E8B95;
+    color: #fff;
+}
+
+.btn {
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    padding: 2rem;
+    border-radius: 30px;
+    width: 30rem;
+}
+
+.homepage-btn:hover {
+    color: #fff;
+}
+
+.homepage-btn:hover, .homepage-btn:focus {
+    background-color: #0E8B95;
+    border-color: #0E8B95;
+    outline: 0;
+}
+.homepage-btn:hover, .homepage-btn:focus {
+    background-color: #24565C;
+    border-color: #24565C;
+}
+
+@media screen and (min-width: 768px) {
+    .body-end-box {
+        width: 50vw;
+    }
+}

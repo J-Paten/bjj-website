@@ -1,0 +1,37 @@
+.testimonial-heading {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 900;
+    margin: 3rem 0 1rem;
+    color: #24565C;
+}
+
+
+.testimonial-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    background-color: #F3F9E7;
+}
+
+.testimonial-box {
+    border: 1px dashed #0E8B95;
+    height: 30rem;
+    color: #333;
+}
+
+.quote {
+    font-size: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+    .testimonial-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .testimonial-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

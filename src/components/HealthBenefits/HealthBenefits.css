@@ -1,0 +1,55 @@
+.health-benefits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.martial-arts-benefits, .benefits-for-youth-students {
+    margin-top: 3rem;
+}
+
+.benefits-for-youth-students {
+    margin-top: 1rem;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.heading {
+    font-size: 4rem;
+    font-weight: 900;
+    letter-spacing: -1px;
+    margin: 3rem 0 3rem;
+    text-align: center;
+    color: #24565C;
+}
+
+.text {
+    font-size: 2rem;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+}
+
+.bullet-list {
+    list-style: square;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.number-list {
+    font-size: 2rem;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-left: 1rem;
+}
+
+.number-list-item, .bullet-list-item {
+    margin-bottom: 2rem;
+    color: #333;
+}

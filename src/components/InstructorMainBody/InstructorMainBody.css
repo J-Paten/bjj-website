@@ -1,0 +1,40 @@
+.main-body-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-body-heading {
+    font-size: 4rem;
+    letter-spacing: -1px;
+    font-weight: 900;
+    margin: 3rem 0 3rem;
+    color: #24565C;
+    text-align: center;
+}
+
+.main-body-text {
+    font-size: 2rem;
+    text-align: center;
+    line-height: 1.5;
+    color: #333;
+}
+
+.main-body-link {
+    font-size: 2rem;
+    color: #6D969A;
+}
+
+
+.main-body-link:focus, .main-body-link:hover {
+    color: #507578;
+}
+
+
+
+@media screen and (min-width: 680px) {
+    .main-body {
+        margin-top: 20rem;
+    }
+}
