@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/bjj-website/static/css/main.f8ac6aee.css",
+    "main.js": "/bjj-website/static/js/main.ee2751b8.js",
+    "static/js/496.60a5b83c.chunk.js": "/bjj-website/static/js/496.60a5b83c.chunk.js",
+    "static/media/hero-bg.jpg": "/bjj-website/static/media/hero-bg.f178426e6c860d6a6f81.jpg",
+    "static/media/schedule.png": "/bjj-website/static/media/schedule.04f24854c3ea5205219b.png",
+    "static/media/tiny-champs.jpeg": "/bjj-website/static/media/tiny-champs.7c309574b74e8f09231e.jpeg",
+    "static/media/adult-beginner.png": "/bjj-website/static/media/adult-beginner.a03ac74057160f9e11c9.png",
+    "static/media/youth-jiu-jitsu.jpeg": "/bjj-website/static/media/youth-jiu-jitsu.e203d908def133c31b58.jpeg",
+    "static/media/black-belt-promotion.jpeg": "/bjj-website/static/media/black-belt-promotion.5727a6f96592f27ed89f.jpeg",
+    "static/media/intermediate-jiu-jitsu.jpeg": "/bjj-website/static/media/intermediate-jiu-jitsu.724f11d99e25a8b3c71d.jpeg",
+    "static/media/nav-img.jpeg": "/bjj-website/static/media/nav-img.0b7b06aa123b43ecdf7d.jpeg",
+    "static/media/ufc-spencer.jpeg": "/bjj-website/static/media/ufc-spencer.1422a8a852d4b9e68ccf.jpeg",
+    "index.html": "/bjj-website/index.html",
+    "main.f8ac6aee.css.map": "/bjj-website/static/css/main.f8ac6aee.css.map",
+    "main.ee2751b8.js.map": "/bjj-website/static/js/main.ee2751b8.js.map",
+    "496.60a5b83c.chunk.js.map": "/bjj-website/static/js/496.60a5b83c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8ac6aee.css",
+    "static/js/main.ee2751b8.js"
+  ]
+}
